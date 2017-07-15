@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FOODTO | Menu</title>
+		<!--bootstrap-->
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="cartStyle/cartstyles.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  		    <!--angular bootstrap scripts-->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.5.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+			<!-- Angular, payments -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.0/angular.min.js"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script src="angular-payments.js"></script>
+
+		<!-- other angular.js modules -->
+		<script src="mm-foundation-tpls-0.3.1.js"></script>
+		<script src="spin.js"></script>
+		<script src="angular-spinner.js"></script>
+
+		<!-- our code -->
+		<script src="cartscripts.js"></script>
+        <script src="map.js"></script>
+		    <script>
+      angular.module('ui.bootstrap.demo', ['ngAnimate', 'ui.bootstrap']);
+      angular.module('ui.bootstrap.demo').controller('foodCtrl', function ($scope) {
+      
+      });
+    </script>
+	<style>
+	body{
+  background: url('images/menu.png') no-repeat ;
+  background-attachment: fixed;
+  background-position:right center;
+}
+</style>
+	</head>
+	<body ng-app="foodApp" ng-controller="foodCtrl">
+	  
+    <div class = "container">
+	<nav class="navbar navbar-light bg-faded" style="background: rgba(217, 217, 217,0.7); text-align:center;">
+      <ul class="nav navbar-nav">
+	    <li><a href="index.html"><span class="glyphicon glyphicon-cutlery"></span> FoodTO</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+	  </nav>
+    
+
+        
+	  <div class="row">
+	<div class="col-xs-6"><img src= 'image/{{restName}}.jpg' alt="Restraunt Photo" style="width:300px; height:300px"> </div>
+	<div class="col-xs-6"> <div id="map" style="width:300px;height:300px;"></div></div>
+	</div>
+	<div class="row">
+                <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-time"></span>{{opening.date}} : {{opening.open}} - {{opening.close}}   
+            <div ng-if="openingTime() == true" class="green"> 
+                <img src= 'images/now_open.png' alt="Now_Open" style="width:90px; height:90px">
+                    </div>
+                    <div ng-if="openingTime() == false" class="green"> <img src= 'images/now_close.png' alt="Now_Open" style="width:110px; height:70px"></div>
+        </div>
+                <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-home"></span>{{address}} </div>
+                <div class="col-xs-6 col-md-4"><span class="glyphicon glyphicon-phone-alt"></span>{{phone}}</div>
+    </div>
+        
+        <div ng-if="deliveryTime == 'false'" class="warning"> 
+            <br>
+        ******  NOTES  ******<br>
+        This Stores is already passed delivery time<br>
+        Please select a time for next day delivery during check out!!!!
+        </div>
+        <br><br>
+        
+
+        <h2 class="middle">  {{restName}} </h2>
+   
+    </div>    
+        
+<div class="container">
+    <div class="row">
+        <div class="col-xs-9" ng-repeat="category in categories">
+            <table class="table table-hover">
+                <thead>
+                    <tr><th><h4 class="media-heading">{{category}}</h4></th></tr>
+                </thead>
+                    <tr>
+                        <th>Product  </th>
+                        <th>Quantity</th>
+                        <th class="text-center">Price</th>
+                        <th class="text-center">Total</th>
+                        <th> </th>
+                    </tr>
+                <tbody>
+                    <tr ng-repeat="product in products" ng-if="product.category === category">
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <div class="media-body">
+                                <h4 class="media-heading">{{product.name}}</h4>
+                            </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                        <strong ng-repeat="item in cart" ng-if="product.id == item.id"> {{item.quantity}} </strong>
+                        <button ng-click="addToCart(product)" type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span></button>
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>{{product.price}}</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center">
+                            <strong ng-repeat="item in cart" ng-if="product.id == item.id"> {{(product.price * item.quantity).toFixed(2)}} </strong>
+                                </td>
+                        <td class="col-sm-1 col-md-1">
+                        <button ng-click="remove(product)" type="button" class="btn btn-danger" >
+                            <span class="glyphicon glyphicon-minus"></span></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+  <div class="element-outer col-xs-6 col-sm-3">
+          <table class="element">
+             <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td><h5>Subtotal</h5></td>
+                        <td class="text-right"><h5><strong>{{getCartPrice().toFixed(2)}}</strong></h5></td>
+                    </tr>
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td><h5>Estimated shipping</h5></td>
+                        <td class="text-right"><h5><strong>$5</strong></h5></td>
+                    </tr>
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td><h3>Total</h3></td>
+                        <td class="text-right"><h3><strong>{{getTotalPrice().toFixed(2)}}</strong></h3></td>
+                    </tr>
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>
+                        <button type="button" class="btn btn-success" ng-click="checkout()">
+                            Checkout <span class="glyphicon glyphicon-play"></span>
+                        </button></td>
+                    </tr>
+        </table>
+      </div>
+    
+   
+    </div>
+</div>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdhqUs4hyMfnxlzJ2ZhqVdy_7nhONEfMY&callback=initMap">
+    </script>
+				</body>
+					</html>

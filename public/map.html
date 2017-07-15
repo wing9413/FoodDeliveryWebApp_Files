@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geocoding service</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+  <div id="current"></div>
+
+    <div id="map" style="width:500px;height:380px;"></div>
+    <script>
+	var url="./restInfo/PuckNWings.json";
+	var lat,lon;
+	var address;
+//showing 3 hours and current weather
+function getJson1(url){
+var xhr1 = new XMLHttpRequest();
+xhr1.open("GET", url, true);
+xhr1.onload = function (e) {
+  if (xhr1.readyState === 4) {
+    if (xhr1.status === 200) {
+      
+      var result= JSON.parse(xhr1.responseText);
+
+//current weather
+	document.getElementById("current").innerHTML =(result.location.lat+result.location.lng+result.address);
+	lat=result.location.lat;
+	lon=result.location.lng;
+	address=result.address;
+    } else {
+      console.error(xhr1.statusText);
+    }
+  }
+};
+xhr1.onerror = function (e) {
+  console.error(xhr1.statusText);
+};
+xhr1.send();
+}
+
+getJson1(url);
+	
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: {lat: lat, lng: lon}
+        });
+          var marker = new google.maps.Marker({
+              position: {lat: lat, lng: lon}
+            });
+          marker.setMap(map);
+        var geocoder = new google.maps.Geocoder();
+
+
+      }
+        
+        
+        
+        
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdhqUs4hyMfnxlzJ2ZhqVdy_7nhONEfMY&callback=initMap">
+    </script>
+  </body>
+</html>

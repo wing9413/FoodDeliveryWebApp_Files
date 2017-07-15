@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>FoodTO | Checkout</title>
+    <!--angular bootstrap scripts-->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.5.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css"/>
+				    <script>
+      angular.module('ui.bootstrap.demo', ['ngAnimate', 'ui.bootstrap']);
+      angular.module('ui.bootstrap.demo').controller('CheckoutCtrl', function ($scope) {
+      
+      });
+    </script>
+    <!--Google map api-->
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&language=en&key=AIzaSyD4KB8V-TnUKdKMca60AIUpvsDticSkBbs"></script>
+	</head>
+
+	<body ng-app="checkOutApp" ng-controller="CheckoutCtrl">
+        <br><br><br>
+<div class = "panel panel-info col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+   <div class = "panel-heading">
+      <h3 class = "panel-title">
+         Checkout
+      </h3>
+   </div>
+   
+   <div class = "panel-body">
+      	<form name="checkoutForm" stripe-form="stripeCallback" ng-submit="onSubmit()" data-abide>
+
+	<div ng-if="processing" us-spinner></div>
+
+	<fieldset>
+		<legend>Shipping Information</legend>
+
+		<div class="row">
+
+			<label class="large-12 columns">Name
+				<input ng-model="name" type="text" placeholder="Name" class="form-control">
+			</label>
+
+			<label class="large-12 columns">Address
+				<input ng-model="location" type="text" placeholder="Address" class="form-control" style="width:100%;">
+			</label>
+		</div>
+	</fieldset>
+	<!--select day and time for delivery-->
+	<div ng-app ng-controller="checkController">Delivery Time
+		<select class="form-control" ng-model="date" ng-options="d.name for d in resultOption" style="width: auto;"></select>
+		<select class="form-control" ng-model="time" ng-options="t.time for t in date.option" style="width: auto;"></select>
+	</div>
+	<!--end here-->
+	<fieldset>
+		<legend>Payment Information</legend>
+
+		<div class="row">
+			<div class="large-6 columns" ng-class="{error: checkoutForm.number.$invalid}">
+				<label>Card Information
+					<input ng-model="number" name="number" payments-format="card" payments-validate="card"
+					       placeholder="Card Number" type="text"class="form-control"/>
+				</label>
+				<small class="error">Invalid card number</small>
+			</div>
+			<div class="large-3 columns" ng-class="{error: checkoutForm.expiry.$invalid}">
+				<label>Expiry
+					<input ng-model="expiry" name="expiry" payments-format="expiry" payments-validate="expiry"
+					       placeholder="Expiry" type="text" class="form-control"/>
+				</label>
+				<small class="error">Invalid date.</small>
+			</div>
+			<div class="large-3 columns" ng-class="{error: checkoutForm.cvc.$invalid}">
+				<label>CVC
+					<input ng-model="cvc" name="cvc" payments-format="cvc" payments-validate="cvc"
+					       placeholder="CVC" type="text" class="form-control"/>
+				</label>
+				<small class="error">Invalid CVC.</small>
+			</div>
+			<div class="large-12 columns">
+				<strong>
+					Amount to pay: {{totalAmount}}$
+				</strong>
+			</div>
+		</div>
+	</fieldset>
+
+	<alert ng-if="stripeError" type="'alert'" close="hideAlerts()">
+		Stripe returned an error: {{stripeError}}
+	</alert>
+
+	<alert ng-if="stripeToken" close="hideAlerts()">
+		Stripe successfully acquired! Token: {{stripeToken}}
+	</alert>
+
+	<div class="clearfix">
+		<div class="right">
+			<button type="cancel" ng-click="cancelOrder()" class="btn btn-default">Cancel</button>
+			<button type="submit" ng-disabled="checkoutForm.$invalid" ng-click="placeOrder()"class="btn btn-default">Place Order</button>
+		</div>
+	</div>
+
+</form>
+   </div>
+</div>
+		
+
+	
+		<!-- Angular, stripe -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.0/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.0/angular-animate.min.js"></script>
+		<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+
+				<!-- Angular, payments -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.0/angular.min.js"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script src="angular-payments.js"></script>
+
+		<!-- other angular.js modules -->
+		<script src="mm-foundation-tpls-0.3.1.js"></script>
+		<script src="spin.js"></script>
+		<script src="angular-spinner.js"></script>
+
+		<!-- our code -->
+		<script src="checkOut.js"></script>
+	</body>
+</html>

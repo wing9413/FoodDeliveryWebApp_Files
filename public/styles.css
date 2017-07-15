@@ -1,0 +1,38 @@
+body{ 
+background: url("restaurantbg.jpg") no-repeat center center fixed;
+background-size:100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+label {
+    font-size:20px;
+    color: #ffffff;
+    margin-top:15%;
+    display:block;
+	text-shadow: 0 0 3px #EFEFEF;
+}
+
+div.center{
+	text-align:center;
+}
+
+.container { position:relative; padding:0 0 0 30px; }
+
+.side{
+  position: fixed;
+  top: 80px; /* depends on #header height */
+  /* ^ or alternatively padding-top:90px; ^ */
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  padding:10px;
+  z-index:999998;
+}
+
+div.container{
+  font-family: 'Lobster', cursive;	  
+  font-size: 17px;
+}

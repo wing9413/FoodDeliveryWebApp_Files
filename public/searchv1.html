@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Result</title>
+	<!--bootstrap-->
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <!--angular bootstrap scripts-->		
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular-cookies.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.5.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script>
+      angular.module('ui.bootstrap.demo', ['ngAnimate', 'ui.bootstrap']);
+      angular.module('ui.bootstrap.demo').controller('searchCtrl', function ($scope) {});
+    </script>
+
+    <!--Google map api-->
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&language=en&key=AIzaSyD4KB8V-TnUKdKMca60AIUpvsDticSkBbs"></script>
+    <!--my script and style-->	
+	<script type="text/javascript" src="scriptsv1.js"></script>
+	<link rel="stylesheet" type="text/css" href="searchv1.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  </head>
+  
+<body ng-app="searchApp" ng-controller="searchCtrl">
+<div class="background">
+    <div class = "container">
+	<nav class="navbar navbar-light bg-faded" style="background: rgba(217, 217, 217,0.6); text-align:center;">
+      <ul class="nav navbar-nav">
+	    <li><a href="index.html"><span class="glyphicon glyphicon-cutlery"></span> FoodTO</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+	  </nav>
+    </div>     
+       <img class="img-responsive" src="./images/restaurants.jpg" style="height: 50%;width:100%;">
+    
+  <div class="main">
+    
+    <br><br>
+    <p class="userlocation" ng-model="location">Location: {{location}}</p>	
+
+          
+    <div class="element col-lg-3 col-md-3 col-sm-12">
+        <img class="plate" src="./images/plate.png">
+        <input type="text" class="form-control" placeholder="search restaurant/Address" ng-model="searchtext" style="width:100%">
+		
+        <fieldset><h3 style="font-size:17px;" >Cuisine:</h3>
+	      <input type="checkbox" ng-click="includeCat('Chinese')" checked="checked">Chinese</input><br>
+          <input type="checkbox" ng-click="includeCat('Indian')" checked="checked">Indian</input><br>
+          <input type="checkbox" ng-click="includeCat('Japanese')" checked="checked">Japanese</input><br>
+	      <input type="checkbox" ng-click="includeCat('Korean')" checked="checked">Korean</input><br>
+          <input type="checkbox" ng-click="includeCat('Mexican')" checked="checked">Mexican</input><br>
+          <input type="checkbox" ng-click="includeCat('Persian')" checked="checked">Persian</input><br>
+	      <input type="checkbox" ng-click="includeCat('Thai')" checked="checked">Thai</input><br>
+          <input type="checkbox" ng-click="includeCat('Vietnamese')" checked="checked">Vietnamese</input>	
+		</fieldset>
+		<fieldset><h3 style="font-size:17px;">Special type:</h3>
+		  <input type="checkbox" ng-click="includeCat('Desserts')" checked="checked">Desserts</input><br>
+          <input type="checkbox" ng-click="includeCat('Pub')" checked="checked">Pub</input><br>
+          <input type="checkbox" ng-click="includeCat('Sandwiches')" checked="checked">Sandwiches</input><br>	
+          <input type="checkbox" ng-click="includeCat('Sport Bar')" checked="checked">Sport Bar</input>		  
+		</fieldset>
+		
+		<p>Price Level:
+		  <select ng-model="pricefilter">
+		    <option value="" selected>ALL</option>
+			<option value="high">HIGH</option>
+			<option value="average">AVERAGE</option>
+			<option value="low">LOW</option>
+		  </select>
+		</p>
+		<p>Distance (km): {{ range }}<input type="range" min="5" max="25" ng-model="range"></p>	  
+</div>
+    <div class="list col-lg-9 col-md-9 col-sm-12">
+	<div class="table-responsive">
+	  <table ng-show="showme" class="table table-hover">
+	    <tr>
+		  <th></th>
+	      <th class="title name">
+		    <a ng-click="order('name'); sortReverse = !sortReverse">Restaurant</a>
+		    <span class="sortorder" ng-show="predicate === 'name'" ng-class="{reverse:reverse}"></span>
+		  </th>
+		  <th class="title address">
+		    Address
+		  </th>
+		  <th class="title category">
+		    <a ng-click="order('category'); sortReverse = !sortReverse">Category</a>
+		    <span class="sortorder" ng-show="predicate === 'category'" ng-class="{reverse:reverse}"></span>
+		  </th>
+		  <th class="title price">
+		    <a ng-click="order('price'); sortReverse = !sortReverse">Price Level</a>
+		    <span class="sortorder" ng-show="predicate === 'price'" ng-class="{reverse:reverse}"></span>
+		  </th>
+		  <th class="title">
+		    <a>EST time</a>
+		    <span class="sortorder" ng-show="predicate === 'estime'" ng-class="{reverse:reverse}"></span>
+	      </th>
+	    </tr>
+	    <tr ng-repeat= "x in table | filter: Textsearch | filter: pricefilter | filter: catfilter | limitTo: totalDisplayed" ng-if="distance(x.location.lat,x.location.lng)">
+	      <td><img class="restphoto" src='image/{{x.name}}.jpg'></td>
+	      <td>
+		    <a ng-href="#" ng-click="restaurantPage($index)" name="rest"> {{x.name}}</a>
+			<br><br>
+              Delivery Time:<br>
+			<span class="glyphicon glyphicon-time"></span>Mon-Sun: {{x.delivery.open}}-{{x.delivery.close}}
+              <div ng-if="checkDeliveryTime(x.delivery.open,x.delivery.close) == true" style="color:green;"> Delivery Now!
+              </div>
+              <div ng-if="checkDeliveryTime(x.delivery.open,x.delivery.close) == false" style="color:red;"> Delivery Closed!
+              </div>
+              
+              
+		  </td>
+		  <td>{{x.vicinity}}</td>
+		  <td>{{x.category}}</td>
+		  <td>{{checkPriceRage(x.price)}}</td>
+		  <td>{{estime | number:0}}mins<br>{{distance1 | number:2}}km</td> 
+	    </tr>
+	  </table>	
+	  </div>
+        <br>
+        
+      <button ng-click="loadmore()"  ng-show="showbtn" class = "btn btn-default">Load More</button>	  
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+  </div>
+  <div class="container text-center" >
+    <div class="col-lg-6 col-md-6 col-sm-12">
+	  <ul class="nav nav-pills nav-justified">
+	  <li><a href="about.html">About us</a></li>
+	  <li><a href="contact.html">Contact us</a></li>
+	  </ul>
+    </div>
+	<div class="col-lg-6 col-md-6 col-sm-12">
+	  <ul class="nav nav-pills nav-justified">
+	    <li><a href="https://www.facebook.com">Facebook</a></li>
+	    <li><a href="https://twitter.com/twitter">twitter</a></li>
+      </ul>
+    </div>  
+    <hr>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+	  <ul class="nav nav-pills nav-justified">
+	    <li><a href="/">© 2016 FoodTO.</a></li>
+		<li><a href="#">Terms of Service</a></li>
+		<li><a href="#">Privacy</a></li>
+	  </ul>
+    </div>
+  </div>
+  <!--back to top-->
+  <div id="backTop" style="opacity: 1;"></div>
+</div>
+</body>
+</html>

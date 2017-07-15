@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--load style sheet-->
+      <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <!--angular bootstrap scripts-->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.5.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+      <style>
+          body {padding-top:20px;}
+      </style>
+    <script>
+      angular.module('ui.bootstrap.demo', ['ngAnimate', 'ui.bootstrap']);
+      angular.module('ui.bootstrap.demo').controller('ButtonsCtrl', function ($scope) {
+
+      
+      });
+    </script>
+  </head>
+  <body>
+    <div class = "container">
+	<nav class="navbar navbar-light bg-faded">
+      <ul class="nav navbar-nav">
+	    <li><a href="index.html"><span class="glyphicon glyphicon-cutlery"></span> FoodTO</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+	  </nav>
+	  <img src="./images/contact.jpg" class="img-responsive" style="width:100%">
+    </div>
+
+    <div ng-controller="ButtonsCtrl">
+<div class="container">
+	<div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="MAILTO:cps630@gmail.com" method="post" enctype="text/plain">
+          <fieldset>
+            <!-- Name input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+              <div class="col-md-9">
+                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your message</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+    </div>
+       <div class="container text-center">
+    <br />
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="col-md-4">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a>FoodTO</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a>Popular restaurants</a></li>
+          <li><a href="cart.html">Puck 'N Wings</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="https://www.facebook.com">Facebook</a></li>
+          <li><a href="https://twitter.com/twitter
+">twitter</a></li>
+        </ul>
+      </div>  
+    </div>
+  </div>
+  <hr>
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="nav nav-pills nav-justified">
+                <li><a href="/">© 2016 FoodTO.</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+  </body>
+</html>

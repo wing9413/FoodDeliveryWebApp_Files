@@ -1,0 +1,84 @@
+{"restName":"Santouka Ramen",
+  "categories":["Cha-Shu Ramen","Toroniku Ramen","Rice Bowl(small size)"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Shio Cha-Shu Ramen",
+      "category": "Cha-Shu Ramen",
+      "price": 12.8
+    },
+    {
+      "id": 2,
+      "name": "Shoyu Cha-Shu Ramen",
+      "category": "Cha-Shu Ramen",
+      "price": 12.8
+    },
+    {
+      "id": 3,
+      "name": "Miso Cha-Shu Ramen",
+      "category": "Cha-Shu Ramen",
+      "price": 12.8
+    },
+    {
+      "id": 4,
+      "name": "Kara Cha-Shu Ramen",
+      "category": "Cha-Shu Ramen",
+      "price": 13.3
+    },
+    {
+      "id": 5,
+      "name": "Toroniku Shio Ramen",
+      "category": "Toroniku Ramen",
+      "price": 15.9
+    },
+    {
+      "id": 6,
+      "name": "Toroniku Shoyu Ramen",
+      "category": "Toroniku Ramen",
+      "price": 15.9
+    },
+    {
+      "id": 7,
+      "name": "Toroniku Miso Ramen",
+      "category": "Toroniku Ramen",
+      "price": 15.9
+    },
+    {
+      "id": 8,
+      "name": "Toroniku Kara Miso Ramen",
+      "category": "Toroniku Ramen",
+      "price": 16.4
+    },
+    {
+      "id": 9,
+      "name": "Negi meshi",
+      "category": "Rice Bowl(small size)",
+      "price": 3.55
+    },
+    {
+      "id": 10,
+      "name": "Ikura gohan",
+      "category": "Rice Bowl(small size)",
+      "price": 5.95
+    },
+    {
+      "id": 11,
+      "name": "yakishake gohan",
+      "category": "Rice Bowl(small size)",
+      "price": 4.55
+    },
+    {
+      "id": 12,
+      "name": "Cha-shu gohan",
+      "category": "Rice Bowl(small size)",
+      "price": 4.55
+    }
+  ],
+  "phone":"+1(647) 748-1717",
+   "location": {
+        "lat": 43.6576976,
+        "lng": -79.3814998
+      },
+  "address":"91 Dundas St E, Toronto, ON M5B 1E1",
+  "opening":{"date":"Mon-Sun","open":11,"close":23}
+}

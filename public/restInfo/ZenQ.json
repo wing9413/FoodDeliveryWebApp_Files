@@ -1,0 +1,72 @@
+{"restName":"ZenQ",
+  "categories":["HOT GRASS JELLY SERIES","SHAVED ICE SERIES","TOFU PUDDING SERIES"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Hot Grass Jelly with Q Ball",
+      "category": "HOT GRASS JELLY SERIES",
+      "price": 7.99
+    },
+    {
+      "id": 2,
+      "name": "Hot Grass Jelly with Taro",
+      "category": "HOT GRASS JELLY SERIES",
+      "price": 7.99
+    },
+    {
+      "id": 3,
+      "name": "Hot Grass Jelly with Red Bean",
+      "category": "HOT GRASS JELLY SERIES",
+      "price": 7.99
+    },
+    {
+      "id": 4,
+      "name": "Mango Milk Shaved Ice",
+      "category": "SHAVED ICE SERIES",
+      "price": 8.99
+    },
+    {
+      "id": 5,
+      "name": "Red Bean Milk Shaved Ice",
+      "category":"SHAVED ICE SERIES",
+      "price": 8.99
+    },
+    {
+      "id": 6,
+      "name": "Taro Grass Jelly Shaved Ice",
+      "category": "SHAVED ICE SERIES",
+      "price": 8.99
+    },
+    {
+      "id": 7,
+      "name": "Strawberry Milk Shaved Ice",
+      "category": "SHAVED ICE SERIES",
+      "price": 8.99
+    },
+    {
+      "id": 8,
+      "name": "Tofu Pudding with Q Ball",
+      "category": "TOFU PUDDING SERIES",
+      "price": 7.75
+    },
+    {
+      "id": 9,
+      "name": "Tofu Pudding with Red Bean",
+      "category": "TOFU PUDDING SERIES",
+      "price": 7.75
+    },
+    {
+      "id": 10,
+      "name": "Tofu Pudding with Taro",
+      "category": "TOFU PUDDING SERIES",
+      "price": 7.75
+    }
+  ],
+  "phone":"+1(647) 350-9367",
+   "location": {
+        "lat": 43.7766014,
+        "lng": -79.4148023
+      },
+  "address":"5437 Yonge St, North York, ON M2N 5S3",
+  "opening":{"date":"Mon-Sun","open":12,"close":0}
+}

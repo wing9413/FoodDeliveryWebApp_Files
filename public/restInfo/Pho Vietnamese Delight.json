@@ -1,0 +1,72 @@
+{"restName":"Pho Vietnamese Delight",
+  "categories":["Rice","Pho"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lemongrass Chicken with Rice",
+      "category": "Rice",
+      "price": 7.99
+    },
+    {
+      "id": 2,
+      "name": "Lemongrass Prok Chop with Rice",
+      "category": "Rice",
+      "price": 7.95
+    },
+    {
+      "id": 3,
+      "name": "BBQ Pork & Spring Roll with Rice",
+      "category": "Rice",
+      "price": 7.75
+    },
+    {
+      "id": 4,
+      "name": "Brisket & Ketchup with Rice",
+      "category": "Rice",
+      "price": 8.25
+    },
+    {
+      "id": 5,
+      "name": "Beef Ball Noodle Soup",
+      "category": "Pho",
+      "price": 7.75
+    },
+    {
+      "id": 6,
+      "name": "Beef Noodle Soup(Rare)",
+      "category": "Pho",
+      "price": 7.75
+    },
+    {
+      "id": 7,
+      "name": "Thai Style Shrimp with Rice Noodle in Soup",
+      "category": "Pho",
+      "price": 7.75
+    },
+    {
+      "id": 8,
+      "name": "House Special Beef Noodle Soup",
+      "category": "Pho",
+      "price": 7.75
+    },
+    {
+      "id": 9,
+      "name": "Blood Jelly & Minced Beef Congee",
+      "category": "Pho",
+      "price": 5.25
+    },
+    {
+      "id": 10,
+      "name": "Sliced Fish & Sliced Beef Congee",
+      "category": "Pho",
+      "price": 5.25
+    }
+  ],
+  "phone":"+1(416) 229-4321",
+    "location": {
+        "lat": 43.7785552,
+        "lng": -79.4149048
+      },
+  "address":"5533 Yonge St, North York, ON M2N 5S1",
+  "opening":{"date":"Mon-Sun","open":11,"close":0}
+}

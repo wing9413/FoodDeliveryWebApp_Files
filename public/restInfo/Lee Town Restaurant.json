@@ -1,0 +1,72 @@
+{"restName":"Lee Town Restaurant",
+  "categories":["Dim Sum","Chicken Dishes","Vegetarian"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Shrimp Dumpling (4)",
+      "category": "Dim Sum",
+      "price": 2.5
+    },
+    {
+      "id": 2,
+      "name": "Sticky Rice",
+      "category": "Dim Sum",
+      "price": 3
+    },
+    {
+      "id": 3,
+      "name": "Steamed Beef Tripe",
+      "category": "Dim Sum",
+      "price": 2.5
+    },
+    {
+      "id": 4,
+      "name": "Chicken Feet",
+      "category": "Dim Sum",
+      "price": 2.5
+    },
+    {
+      "id": 5,
+      "name": " Chicken Egg Foo Yong",
+      "category":"Chicken Dishes",
+      "price": 9
+    },
+    {
+      "id": 6,
+      "name": "General George Chicken",
+      "category": "Chicken Dishes",
+      "price": 9
+    },
+    {
+      "id": 7,
+      "name": "Curry Chicken Breast",
+      "category": "Chicken Dishes",
+      "price": 9
+    },
+    {
+      "id": 8,
+      "name": "Home Style Braised Bean Curd",
+      "category": "Vegetarian",
+      "price": 8.25
+    },
+    {
+      "id": 9,
+      "name": "Egg Plant in Oyster Sauce",
+      "category": "Vegetarian",
+      "price": 8.25
+    },
+    {
+      "id": 10,
+      "name": "Chinese Green",
+      "category": "Vegetarian",
+      "price": 8.25
+    }
+  ],
+  "phone":"+1(416) 730-9398",
+   "location": {
+        "lat": 43.7642262,
+        "lng": -79.4113292
+      },
+  "address":"4907 Yonge St, North York, ON M2N 5N4",
+  "opening":{"date":"Mon-Sun","open":11,"close":23}
+}

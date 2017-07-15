@@ -1,0 +1,78 @@
+{"restName":"The 3 Brewers",
+  "categories":["STARTERS","FLAMMEKUECHES","PLATS BRASSERIE"],
+  "products": [
+    {
+      "id": 1,
+      "name": "House Salad",
+      "category": "STARTERS",
+      "price": 4.25
+    },
+    {
+      "id": 2,
+      "name": "Caesar Salad",
+      "category": "STARTERS",
+      "price": 4.00
+    },
+    {
+      "id": 3,
+      "name": "Garlic Cheese Bread",
+      "category": "STARTERS",
+      "price": 4.00
+    },
+        {
+      "id": 4,
+      "name": "Flamm Chips",
+      "category": "STARTERS",
+      "price": 4.25
+    },
+    {
+      "id": 5,
+      "name": "Provençale",
+      "category": "FLAMMEKUECHES",
+      "price": 10.00
+    },
+    {
+      "id": 6,
+      "name": "3 Mushrooms",
+      "category": "FLAMMEKUECHES",
+      "price": 11.00
+    },
+	    {
+      "id": 7,
+      "name": "BBQ Chicken",
+      "category": "FLAMMEKUECHES",
+      "price": 10.25
+    },
+    {
+      "id": 8,
+      "name": "White Beer Mussels & FRITES",
+      "category": "PLATS BRASSERIE",
+      "price": 14.00
+    },
+    {
+      "id": 9,
+      "name": "BEER BATTERED Fish & Chips",
+      "category": "PLATS BRASSERIE",
+      "price": 14.00
+    },
+	    {
+      "id": 10,
+      "name": "Beer-Braised Pork Shank",
+      "category": "PLATS BRASSERIE",
+      "price": 15.25
+    },
+    {
+      "id": 12,
+      "name": "Cassoulet",
+      "category": "PLATS BRASSERIE",
+      "price": 16.00
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6555326,
+        "lng": -79.3802037
+      },
+  "address":"275 Yonge St, Toronto, ON M5B 1N8",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

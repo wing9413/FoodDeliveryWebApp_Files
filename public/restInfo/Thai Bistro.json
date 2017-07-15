@@ -1,0 +1,102 @@
+{"restName":"Thai Bistro",
+  "categories":["Appetizers","Thai Noodles","Fried Rice"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Fresh Shrimp Rolls(2)",
+      "category": "Appetizers",
+      "price": 4.95
+    },
+    {
+      "id": 2,
+      "name": "Fresh Tofu Rolls(2)",
+      "category": "Appetizers",
+      "price": 4.5
+    },
+    {
+      "id": 3,
+      "name": "Thai Salads",
+      "category": "Appetizers",
+      "price": 7.95
+    },
+    {
+      "id": 4,
+      "name": "Mango Salads",
+      "category": "Appetizers",
+      "price": 7.95
+    },
+    {
+      "id": 5,
+      "name": " Deep Fried Vegetable Spring Rolls (4)",
+      "category":"Appetizers",
+      "price": 4.95
+    },
+    {
+      "id": 6,
+      "name": "Special Thai Bistro Noodles",
+      "category": "Thai Noodles",
+      "price": 11.95
+    },
+    {
+      "id": 7,
+      "name": "Chicken Pad Thai",
+      "category": "Thai Noodles",
+      "price": 9.5
+    },
+    {
+      "id": 8,
+      "name": "Chicken Pad Siew",
+      "category": "Thai Noodles",
+      "price": 10.5
+    },
+    {
+      "id": 9,
+      "name": "Shanghai Chow Mein",
+      "category": "Thai Noodles",
+      "price": 10.5
+    },
+    {
+      "id": 10,
+      "name": "Singapore Style Rice Noodle",
+      "category": "Thai Noodles",
+      "price": 9.5
+    },
+    {
+      "id": 11,
+      "name": "Special Thai Bistro Fried Rice",
+      "category": "Fried Rice",
+      "price": 11.95
+    },
+    {
+      "id": 12,
+      "name": "Shrimp Fried Rice",
+      "category": "Fried Rice",
+      "price": 10.5
+    },
+    {
+      "id": 13,
+      "name": "Beef Fried Rice",
+      "category": "Fried Rice",
+      "price": 9.5
+    },
+    {
+      "id": 14,
+      "name": "Beef Thai Fried Rice",
+      "category": "Fried Rice",
+      "price": 9.5
+    },
+    {
+      "id": 15,
+      "name": "Vegetarian Fried Rice",
+      "category": "Fried Rice",
+      "price": 9.5
+    }
+  ],
+  "phone":"+1(416) 222-4653",
+   "location": {
+        "lat": 43.7724864,
+        "lng": -79.4148052
+      },
+  "address":"5306 Yonge St, North York, ON M2N 5P9",
+  "opening":{"date":"Mon-Sun","open":12,"close":22}
+}

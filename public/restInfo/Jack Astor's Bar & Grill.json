@@ -1,0 +1,102 @@
+{"restName":"Jack Astor's Bar & Grill",
+  "categories":["STARTERS","BURGERS AND SANDWICHES","SWEET TEETH"],
+  "products": [
+    {
+      "id": 1,
+      "name": "JACK’S GARLIC PAN BREAD",
+      "category": "STARTERS",
+      "price": 6.89
+    },
+    {
+      "id": 2,
+      "name": "Jack’s Cheese Garlic Pan Bread",
+      "category": "STARTERS",
+      "price": 8.33
+    },
+    {
+      "id": 3,
+      "name": "LOBSTER & CRAB DIP",
+      "category": "STARTERS",
+      "price": 13.49
+    },
+    {
+      "id": 4,
+      "name": "ROASTED GARLIC BRUSCHETTA",
+      "category": "STARTERS",
+      "price": 11.48
+    },
+    {
+      "id": 5,
+      "name": "TUNA POKE",
+      "category":"STARTERS",
+      "price": 12.89
+    },
+    {
+      "id": 6,
+      "name": "BRIE BURGER",
+      "category": "BURGERS AND SANDWICHES",
+      "price": 15.94
+    },
+    {
+      "id": 7,
+      "name": "DELUXE BACON CHEESEBURGER",
+      "category": "BURGERS AND SANDWICHES",
+      "price": 15.98
+    },
+    {
+      "id": 8,
+      "name": "THE WL CHEESEBURGER",
+      "category": "BURGERS AND SANDWICHES",
+      "price": 14.96
+    },
+    {
+      "id": 9,
+      "name": "HOLD THE BEEF",
+      "category": "BURGERS AND SANDWICHES",
+      "price": 14.68
+    },
+    {
+      "id": 10,
+      "name": "WAKE ‘N’ BACON CHICKEN CLUB",
+      "category": "BURGERS AND SANDWICHES",
+      "price": 14.92
+    },
+    {
+      "id": 11,
+      "name": "TEXAS ROADKILL CHICKEN SANDWICH",
+      "category": "BURGERS AND SANDWICHES",
+      "price": 13.89
+    },
+    {
+      "id": 12,
+      "name": "MY COOKIE ATE YOUR BROWNIE",
+      "category": "SWEET TEETH",
+      "price": 3.86
+    },
+    {
+      "id": 13,
+      "name": "WORLD’S MOST RIDICULOUSLY SMALL BROWNIE",
+      "category": "SWEET TEETH",
+      "price": 1.64
+    },
+    {
+      "id": 14,
+      "name": "DON KIEBALS DONUT DIPPERS",
+      "category": "SWEET TEETH",
+      "price": 5.98
+    },
+    {
+      "id": 15,
+      "name": "CARAMEL DREAM",
+      "category": "SWEET TEETH",
+      "price": 5.46
+    }
+  ],
+  "phone":"+1(416) 221-1221",
+   "location": {
+        "lat": 43.7671908,
+        "lng": -79.4119741
+      },
+  "address":"5051 Yonge St, North York, ON M2N 5P2",
+  "opening":{"date":"Mon-Sun","open":11,"close":1}
+}

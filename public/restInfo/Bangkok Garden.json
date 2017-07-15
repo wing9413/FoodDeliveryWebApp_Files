@@ -1,0 +1,132 @@
+{"restName":"Bangkok Garden",
+  "categories":["APPETIZERS","THE GRILL","THE WOK","THAI CURRIES","FISH AND SEAFOOD"],
+  "products": [
+    {
+      "id": 1,
+      "name": "APPETIZER ASSORTMENT (FOR TWO)",
+      "category": "APPETIZERS",
+      "price": 19.95
+    },
+    {
+      "id": 2,
+      "name": "STEAMED MUSSELS Hoy Nueng",
+      "category": "APPETIZERS",
+      "price": 7.95
+    },
+    {
+      "id": 3,
+      "name": "THAI CALAMARI Pla Muk Thod",
+      "category": "APPETIZERS",
+      "price": 7.95
+    },
+    {
+      "id": 4,
+      "name": "SHRIMP CHIPS WITH PEANUT SAUCE Khao Grieb Goong",
+      "category": "APPETIZERS",
+      "price": 6.95
+    },
+    {
+      "id": 5,
+      "name": "NAUGHTY LITTLE PEPPERS Prik Youak Sod Sai",
+      "category": "APPETIZERS",
+      "price": 6.95
+    },
+    {
+      "id": 6,
+      "name": "FRESH SPRING ROLLS Porpia Sot",
+      "category": "APPETIZERS",
+      "price": 6.95
+    },
+    {
+      "id": 7,
+      "name": "THAI SPRING ROLLS Porpia Tod",
+      "category": "APPETIZERS",
+      "price": 6.95
+    },
+    {
+      "id": 8,
+      "name": "PATTAYA GRILL Gai Yang ",
+      "category": "THE GRILL",
+      "price": 18.95
+    },
+    {
+      "id": 9,
+      "name": "SIAMESE BEEF Nua Yang ",
+      "category": "THE GRILL",
+      "price": 19.95
+    },
+    {
+      "id": 10,
+      "name": "GRILLED CORNISH HEN & LEMON GRASS",
+      "category": "THE GRILL",
+      "price": 19.95
+    },
+        {
+      "id": 11,
+      "name": "TOASTED CASHEWS WITH CHICKEN Gai Phad Met Mamuang",
+      "category": "THE WOK",
+      "price": 19.95
+    },
+	        {
+      "id": 12,
+      "name": "GINGER CHICKEN Gai Pad Khing",
+      "category": "THE WOK",
+      "price": 19.95
+    },
+	        {
+      "id": 13,
+      "name": "TWO FRIENDS Pad Song Sahai ",
+      "category": "THE WOK",
+      "price": 19.95
+    },
+	{
+      "id": 14,
+      "name": "RED CURRY OF CHICKEN Gaeng Dang Gai",
+      "category": "THAI CURRIES",
+      "price": 19.95
+    },
+	{
+      "id": 15,
+      "name": "EMERALD CURRY OF CHICKEN Gaeng Kioh Waan Gai",
+      "category": "THAI CURRIES",
+      "price": 19.95
+    },
+	{
+      "id": 16,
+      "name": "PINEAPPLE SHRIMP CURRY Gaeng Kua Sapparot",
+      "category": "THAI CURRIES",
+      "price": 20.95
+    },
+		{
+      "id": 17,
+      "name": "ANNA’S DELIGHTPla Jian ",
+      "category": "FISH AND SEAFOOD",
+      "price": 19.95
+    },
+			{
+      "id": 18,
+      "name": "SPICY FISH Pla Pad Pprik",
+      "category": "FISH AND SEAFOOD",
+      "price": 19.95
+    },
+			{
+      "id": 19,
+      "name": "NEPTUNE’S NEMESIS Pla Laad Prik",
+      "category": "FISH AND SEAFOOD",
+      "price": 18.95
+    },
+	{
+      "id": 20,
+      "name": "SHRIMP STIR FRY Phad Tom Yum",
+      "category": "FISH AND SEAFOOD",
+      "price": 20.95
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6578285,
+        "lng": -79.3827594
+      },
+  "address":"18 Elm St, Toronto, ON M5G 1G7",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

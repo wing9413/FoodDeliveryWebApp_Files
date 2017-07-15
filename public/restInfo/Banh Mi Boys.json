@@ -1,0 +1,126 @@
+{"restName":"Banh Mi Boys",
+  "categories":["STEAMED BAO","TACO","SIDES"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Five Spice Pork Belly Bao",
+      "category": "STEAMED BAO",
+      "price": 4.25
+    },
+    {
+      "id": 2,
+      "name": "Braised Beef Bao",
+      "category": "STEAMED BAO",
+      "price": 4.00
+    },
+    {
+      "id": 3,
+      "name": "Pulled Pork Bao",
+      "category": "STEAMED BAO",
+      "price": 4.00
+    },
+    {
+      "id": 4,
+      "name": "Fried Chicken Bao",
+      "category": "STEAMED BAO",
+      "price": 4.5
+    },
+    {
+      "id": 5,
+      "name": "Panko Tofu Bao",
+      "category": "STEAMED BAO",
+      "price": 4
+    },
+    {
+      "id": 6,
+      "name": "Kalbi Beef Taco",
+      "category": "TACO",
+      "price": 4.5
+    },
+    {
+      "id": 7,
+      "name": "Pulled Pork Taco",
+      "category": "TACO",
+      "price": 4.5
+    },
+    {
+      "id": 8,
+      "name": "Grilled Chicken Taco",
+      "category": "TACO",
+      "price": 4.5
+    },
+    {
+      "id": 9,
+      "name": "Squid Taco",
+      "category": "TACO",
+      "price": 4.5
+    },
+    {
+      "id": 10,
+      "name": "Tofu Taco",
+      "category": "TACO",
+      "price": 4.5
+    },
+        {
+      "id": 11,
+      "name": "Braised Beef Taco",
+      "category": "TACO",
+      "price": 4.5
+    },
+	        {
+      "id": 12,
+      "name": "Duck Confit Tacos",
+      "category": "TACO",
+      "price": 10
+    },
+	        {
+      "id": 13,
+      "name": "Side of Kimchi Fries",
+      "category": "SIDES",
+      "price": 7.5
+    },
+	{
+      "id": 14,
+      "name": "Side of Tofu Fries",
+      "category": "SIDES",
+      "price": 7.25
+    },
+	{
+      "id": 15,
+      "name": "Side of Fries",
+      "category": "SIDES",
+      "price": 3
+    },
+	{
+      "id": 16,
+      "name": "Side of Sweet Potato Fries",
+      "category": "SIDES",
+      "price": 3.75
+    },
+		{
+      "id": 17,
+      "name": "Side of Jicama Papaya Salad",
+      "category": "SIDES",
+      "price": 4
+    },
+			{
+      "id": 18,
+      "name": "Side of Sweet Potato Tofu Fries",
+      "category": "SIDES",
+      "price": 8
+    },
+			{
+      "id": 19,
+      "name": "Side of Sweet Potato Kimchi Fries",
+      "category": "SIDES",
+      "price": 8
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6592988,
+        "lng": -79.3818803
+      },
+  "address":"399 Yonge St, Toronto, ON M5B 1S9",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

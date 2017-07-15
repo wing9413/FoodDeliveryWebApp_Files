@@ -1,0 +1,78 @@
+{"restName":"Narooe Korean Cuisine",
+  "categories":["APPETIZERS","Udon","NAROOE HOT STEW"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Gimbap(Korean Rice Roll)",
+      "category": "APPETIZERS",
+      "price": 6.95
+    },
+    {
+      "id": 2,
+      "name": "Rice Cake in Hot Sauce",
+      "category": "APPETIZERS",
+      "price": 7.95
+    },
+    {
+      "id": 3,
+      "name": "Fresh Fried Breaded Squid",
+      "category": "APPETIZERS",
+      "price": 8.95
+    },
+    {
+      "id": 4,
+      "name": "Green Onion and Seafood Pancake",
+      "category": "APPETIZERS",
+      "price": 14.95
+    },
+    {
+      "id": 5,
+      "name": "Vegetable Udon",
+      "category": "Udon",
+      "price": 7.95
+    },
+    {
+      "id": 6,
+      "name": "Seafood Udon",
+      "category": "Udon",
+      "price": 9.95
+    },
+    {
+      "id": 7,
+      "name": "Spicy Yaki Udon",
+      "category": "Udon",
+      "price": 10.95
+    },
+    {
+      "id": 8,
+      "name": "Pork Bone Soup",
+      "category": "NAROOE HOT STEW",
+      "price": 6.95
+    },
+    {
+      "id": 9,
+      "name": "Soft Tofu Stew",
+      "category": "NAROOE HOT STEW",
+      "price": 7.95
+    },
+    {
+      "id": 10,
+      "name": "Kalbi Stew",
+      "category": "NAROOE HOT STEW",
+      "price": 11.95
+    },
+        {
+      "id": 11,
+      "name": "Kimchi Stew",
+      "category": "NAROOE HOT STEW",
+      "price": 7.95
+    }
+  ],
+  "phone":"+1(416) 546-4918",
+   "location": {
+        "lat": 43.78129149999999,
+        "lng": -79.4156142
+      },
+  "address":"649 Yonge St, North York, ON M2M 3T2",
+  "opening":{"date":"Mon-Sun","open":11,"close":23}
+}

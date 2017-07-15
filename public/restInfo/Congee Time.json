@@ -1,0 +1,90 @@
+{"restName":"Congee Time",
+  "categories":["SUPER BOWL CONGEE","CONGEE"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Super Supreme Super Bowl",
+      "category": "SUPER BOWL CONGEE",
+      "price": 9.95
+    },
+    {
+      "id": 2,
+      "name": "Supreme Super Bowl",
+      "category": "SUPER BOWL CONGEE",
+      "price": 8.95
+    },
+    {
+      "id": 3,
+      "name": "Seafood Super Bowl",
+      "category": "SUPER BOWL CONGEE",
+      "price": 8.95
+    },
+    {
+      "id": 4,
+      "name": "Crab Meat Egg White & Fish Maw Super Bowl",
+      "category": "SUPER BOWL CONGEE",
+      "price": 9.75
+    },
+    {
+      "id": 5,
+      "name": "Seafood with Winter melon Super Bowl",
+      "category": "SUPER BOWL CONGEE",
+      "price": 8.95
+    },
+    {
+      "id": 6,
+      "name": "Fresh Geoduck Congee",
+      "category": "CONGEE",
+      "price": 6.75
+    },
+    {
+      "id": 7,
+      "name": "Salmon Congee",
+      "category": "CONGEE",
+      "price": 5.5
+    },
+    {
+      "id": 8,
+      "name": "Sliced Fish Congee",
+      "category": "CONGEE",
+      "price": 5.25
+    },
+    {
+      "id": 9,
+      "name": "Blood Jelly & Minced Beef Congee",
+      "category": "CONGEE",
+      "price": 5.25
+    },
+    {
+      "id": 10,
+      "name": "Sliced Fish & Sliced Beef Congee",
+      "category": "CONGEE",
+      "price": 5.25
+    },
+    {
+      "id": 11,
+      "name": "Sweet Corn & Bean Curd Congee",
+      "category": "CONGEE",
+      "price": 4.75
+    },
+    {
+      "id": 12,
+      "name": "Blood Jelly Congee",
+      "category": "CONGEE",
+      "price": 4.75
+    },
+    {
+      "id": 13,
+      "name": "Sliced Beef Congee",
+      "category": "CONGEE",
+      "price": 4.95
+    }
+  ],
+  "phone":"+1(416)225-6688",
+   "location": {
+        "lat": 43.7852762,
+        "lng": -79.41591129999999
+      },
+  "address":"5817 Yonge Street, North York, ON M2M 3T9",
+  "opening":{"date":"Mon-Sun","open":10,"close":1}
+}

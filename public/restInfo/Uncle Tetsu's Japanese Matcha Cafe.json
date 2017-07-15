@@ -1,0 +1,54 @@
+{"restName":"Uncle Tetsu’s Japanese Matcha Cafe",
+  "categories":["DESSERT","DRINK"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Uncle Tetsu’s Cheesecake",
+      "category": "DESSERT",
+      "price": 10
+    },
+    {
+      "id": 2,
+      "name": "Angel Hat",
+      "category": "DESSERT",
+      "price": 10.00
+    },
+    {
+      "id": 3,
+      "name": "Honey Madeleine",
+      "category": "DESSERT",
+      "price": 2.21
+    },
+        {
+      "id": 4,
+      "name": "Matcha Cheesecake",
+      "category": "DESSERT",
+      "price": 10
+    },
+    {
+      "id": 5,
+      "name": "Matcha Madeleine",
+      "category": "DESSERT",
+      "price": 2.65
+    },
+    {
+      "id": 6,
+      "name": "Matcha Latte",
+      "category": "DRINK",
+      "price": 3.09
+    },
+	    {
+      "id": 7,
+      "name": "Uncle Tetsu’s Rusk",
+      "category": "DESSERT",
+      "price": 3.54
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6558649,
+        "lng": -79.3837871
+      },
+  "address":"596 Bay St, Toronto, ON M5G",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

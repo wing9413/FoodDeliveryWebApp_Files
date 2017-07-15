@@ -1,0 +1,66 @@
+{"restName":"Salad King",
+  "categories":["Thai Sides","Stir Fry Noodles"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Green Mango Salad",
+      "category": "Thai Sides",
+      "price": 6
+    },
+    {
+      "id": 2,
+      "name": "Satay Chicken",
+      "category": "Thai Sides",
+      "price": 5.5
+    },
+    {
+      "id": 3,
+      "name": "Satay Beef",
+      "category": "Thai Sides",
+      "price": 5.75
+    },
+    {
+      "id": 4,
+      "name": "Spicy Cucumber Salad",
+      "category": "Thai Sides",
+      "price": 5.75
+    },
+    {
+      "id": 5,
+      "name": "Phud Thai",
+      "category": "Stir Fry Noodles",
+      "price": 9.5
+    },
+    {
+      "id": 6,
+      "name": "Hot Thai Noodles",
+      "category": "Stir Fry Noodles",
+      "price": 9.5
+    },
+    {
+      "id": 7,
+      "name": "Bangkok Stir Fry",
+      "category": "Stir Fry Noodles",
+      "price": 9.5
+    },
+    {
+      "id": 8,
+      "name": "Siam Noodles",
+      "category": "Stir Fry Noodles",
+      "price": 10.5
+    },
+    {
+      "id": 9,
+      "name": "Thai Basil Noodles",
+      "category": "Stir Fry Noodles",
+      "price": 10
+    }
+  ],
+  "phone":"+1(416) 593-0333",
+   "location": {
+        "lat": 43.6576976,
+        "lng": -79.3814998
+      },
+  "address":"340 Yonge St, Toronto, ON M5B 1R8",
+  "opening":{"date":"Mon-Sun","open":11,"close":23}
+}

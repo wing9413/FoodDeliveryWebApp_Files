@@ -1,0 +1,78 @@
+{"restName":"Nak Won Korean Restaurant",
+  "categories":["Nak Won Cuisine","Cold Noodles","Nak Won Dishes"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Kimchi Chigae",
+      "category": "Nak Won Cuisine",
+      "price": 6.99
+    },
+    {
+      "id": 2,
+      "name": "Tuna Kimchi Chigae",
+      "category": "Nak Won Cuisine",
+      "price": 6.99
+    },
+    {
+      "id": 3,
+      "name": "Soondubu Chigae",
+      "category": "Nak Won Cuisine",
+      "price": 6.99
+    },
+    {
+      "id": 4,
+      "name": "Sul Lung Tang",
+      "category": "Nak Won Cuisine",
+      "price": 6.99
+    },
+    {
+      "id": 5,
+      "name": "Kalbitang",
+      "category": "Nak Won Cuisine",
+      "price": 9.99
+    },
+    {
+      "id": 6,
+      "name": "Don Katsu",
+      "category": "Nak Won Cuisine",
+      "price": 7.99
+    },
+    {
+      "id": 7,
+      "name": "Mool Naeng Myun",
+      "category": "Cold Noodles",
+      "price": 8.99
+    },
+    {
+      "id": 8,
+      "name": "Bibim Naeng Myun",
+      "category": "Cold Noodles",
+      "price": 8.99
+    },
+    {
+      "id": 9,
+      "name": "Jeyook Bossam",
+      "category": "Nak Won Dishes",
+      "price": 15.99
+    },
+    {
+      "id": 10,
+      "name": "Samgyupsal Tofu Kimchi Bokeum",
+      "category": "Nak Won Dishes",
+      "price": 17.99
+    },
+    {
+      "id": 11,
+      "name": "Nakji Bokeum",
+      "category": "Nak Won Dishes",
+      "price": 19.99
+    }
+  ],
+  "phone":"+1(416) 590-1435",
+  "location": {
+        "lat": 43.7796,
+        "lng": -79.4156336
+      },
+  "address":"5594 Yonge St, North York, ON M2N 5S2",
+  "opening":{"date":"Mon-Sun","open":11,"close":2}
+}

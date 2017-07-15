@@ -1,0 +1,78 @@
+{"restName":"Panera Bread",
+  "categories":["SOUP","WRAP","SANDWICH"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chicken noodle soup",
+      "category": "SOUP",
+      "price": 7.95
+    },
+    {
+      "id": 2,
+      "name": "Curried Apricot & Red Lentil",
+      "category": "SOUP",
+      "price": 9.49
+    },
+    {
+      "id": 3,
+      "name": "Corn Chowder",
+      "category": "SOUP",
+      "price": 9.99
+    },
+    {
+      "id": 4,
+      "name": "Butternut Squash",
+      "category": "SOUP",
+      "price": 9.99
+    },
+    {
+      "id": 5,
+      "name": "Ravistew",
+      "category": "SOUP",
+      "price": 9.49
+    },
+    {
+      "id": 6,
+      "name": "Porcini Mushroom Wild Rice Bisque",
+      "category": "SOUP",
+      "price": 9.95
+    },
+    {
+      "id": 7,
+      "name": "Roasted Free Range Chicken",
+      "category": "WRAP",
+      "price": 9.99
+    },
+    {
+      "id": 8,
+      "name": "Roasted Pork Shoulder",
+      "category": "WRAP",
+      "price": 9.49
+    },
+    {
+      "id": 9,
+      "name": "Oven Roasted Veggies",
+      "category": "WRAP",
+      "price": 9.49
+    },
+    {
+      "id": 10,
+      "name": "Flank Steak Wrap",
+      "category": "WRAP",
+      "price": 11.95
+    },
+        {
+      "id": 11,
+      "name": "Chicken",
+      "category": "SANDWICH",
+      "price": 7.95
+    }
+  ],
+  "phone":"+1(416) 546-4918",
+   "location": {
+        "lat": 43.6571354,
+        "lng": -79.3814632
+      },
+  "address":"322 Yonge St, Toronto, ON M5B 1R8",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

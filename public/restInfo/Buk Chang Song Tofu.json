@@ -1,0 +1,60 @@
+{"restName":"Buk Chang Song Tofu",
+  "categories":["main"],
+  "products": [
+    {
+      "id": 1,
+            "name": "Combination Soon Tofu+ Doisotbab",
+            "category": "main",
+            "price": 7.08
+    },
+    {
+      "id": 2,
+            "name": "Seafood Soon Tofu+ Doisotbab",
+            "category": "main",
+            "price": 7.08
+    },
+    {
+      "id": 3,
+            "name": "Dumpling Soon Tofu+ Doisotbab",
+            "category": "main",
+            "price": 7.08
+    },
+        {
+      "id": 4,
+            "name": "Soybean Soon Tofu+ Doisotbab",
+            "category": "main",
+            "price": 7.08
+    },
+    {
+      "id": 5,
+            "name": "Vegetable Soon Tofu + Doisotbab",
+            "category": "main",
+            "price": 7.08
+    },
+    {
+      "id": 6,
+            "name": "Stone pot Bibimbab",
+            "category": "main",
+            "price": 7.08
+    },
+	    {
+      "id": 7,
+            "name": "Dukbegi Bulgogi +Doisotbab",
+            "category": "main",
+            "price": 8.85
+    },
+    {
+      "id": 8,
+            "name": "Boiled BBQ +Doisotbab",
+            "category": "main",
+            "price": 8.85
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.658461,
+        "lng": -79.726643
+      },
+  "address":"3085 Hurontario Street, Mississauga, ON L5R 3E7",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

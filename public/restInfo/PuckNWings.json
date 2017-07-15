@@ -1,0 +1,84 @@
+{"restName":"Puck 'N Wings",
+  "categories":["COACH's PICKS","WRAP AROUND GOALS","FRESHEST WINGS IN THE GAME"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Spinich Dip",
+      "category": "COACH's PICKS",
+      "price": 8.99
+    },
+    {
+      "id": 2,
+      "name": "Poutine",
+      "category": "COACH's PICKS",
+      "price": 7.99
+    },
+    {
+      "id": 3,
+      "name": "Ultimate Nachos(M)",
+      "category": "COACH's PICKS",
+      "price": 10.99
+    },
+    {
+      "id": 4,
+      "name": "Ultimate Nachos(L)",
+      "category": "COACH's PICKS",
+      "price": 12.99
+    },
+    {
+      "id": 5,
+      "name": "Buffalo Chicken Wrap",
+      "category": "WRAP AROUND GOALS",
+      "price": 10.98
+    },
+    {
+      "id": 6,
+      "name": "B.L.T. Wrap",
+      "category": "WRAP AROUND GOALS",
+      "price": 9.99
+    },
+    {
+      "id": 7,
+      "name": "BBQ MILD (1lb)",
+      "category": "FRESHEST WINGS IN THE GAME",
+      "price": 11.99
+    },
+    {
+      "id": 8,
+      "name": "HONEY BBQ (1lb)",
+      "category": "FRESHEST WINGS IN THE GAME",
+      "price": 11.99
+    },
+    {
+      "id": 9,
+      "name": "GINGER BEE (1lb)",
+      "category": "FRESHEST WINGS IN THE GAME",
+      "price": 11.99
+    },
+    {
+      "id": 10,
+      "name": "PINEAPPLE CURRY(1lb)",
+      "category": "FRESHEST WINGS IN THE GAME",
+      "price": 11.99
+    },
+        {
+      "id": 11,
+      "name": "BUTTER CHICKEN (1lb)",
+      "category": "FRESHEST WINGS IN THE GAME",
+      "price": 11.99
+    },
+    {
+      "id": 12,
+      "name": "RED THAI(1lb)",
+      "category": "FRESHEST WINGS IN THE GAME",
+      "price": 11.99
+    }
+  ],
+  "phone":"+1(416)224166",
+  "location": {
+        "lat": 43.78051299999999,
+        "lng": -79.4152598
+      },
+  "address":"5625 Yonge St, North York, ON M2M 3S9",
+  "opening":{"date":"Mon-Sun","open":8,"close":3}
+}

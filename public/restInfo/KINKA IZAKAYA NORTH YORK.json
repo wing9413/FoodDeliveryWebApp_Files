@@ -1,0 +1,72 @@
+{"restName":"KINKA IZAKAYA NORTH YORK",
+  "categories":["Deep Fried","Salad","Rice/Sushi"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Karaage",
+      "category": "Deep Fried",
+      "price": 7.8
+    },
+    {
+      "id": 2,
+      "name": "Takoyaki",
+      "category": "Deep Fried",
+      "price": 5.5
+    },
+    {
+      "id": 3,
+      "name": "Brie Cheese",
+      "category": "Deep Fried",
+      "price": 7.5
+    },
+    {
+      "id": 4,
+      "name": "Sashimi Salad",
+      "category": "Salad",
+      "price": 8.8
+    },
+    {
+      "id": 5,
+      "name": "Kaisou & Tofu Salad",
+      "category": "Salad",
+      "price": 7
+    },
+    {
+      "id": 6,
+      "name": "Gyu Shabu Salad",
+      "category": "Salad",
+      "price": 7.8
+    },
+    {
+      "id": 7,
+      "name": "Kinoko Bibimbap",
+      "category": "Rice/Sushi",
+      "price": 9.3
+    },
+    {
+      "id": 8,
+      "name": "Unagi Bibimbap",
+      "category": "Rice/Sushi",
+      "price": 11.3
+    },
+    {
+      "id": 9,
+      "name": "Saba Oshizushi",
+      "category": "Rice/Sushi",
+      "price": 12.8
+    },
+    {
+      "id": 10,
+      "name": "Salmon Oshizushi",
+      "category": "Rice/Sushi",
+      "price": 12.8
+    }
+  ],
+  "phone":"+1(647) 346-6246",
+  "location": {
+        "lat": 43.7604179,
+        "lng": -79.4102547
+      },
+  "address":"4775 Yonge St Unit 114,Toronto, ON M2N 5M5",
+  "opening":{"date":"Mon-Sun","open":17,"close":1}
+}

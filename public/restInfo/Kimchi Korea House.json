@@ -1,0 +1,96 @@
+{"restName":"Kimchi Korea House",
+  "categories":["APPETIZERS","MAIN ENTREE","BIBIMBAP"],
+  "products": [
+    {
+      "id": 1,
+      "name": "EDAMAME",
+      "category": "APPETIZERS",
+      "price": 4.5
+    },
+    {
+      "id": 2,
+      "name": "TOFU TERIYAKI",
+      "category": "APPETIZERS",
+      "price": 5.95
+    },
+    {
+      "id": 3,
+      "name": "RAW TOFU",
+      "category": "APPETIZERS",
+      "price": 5.95
+    },
+    {
+      "id": 4,
+      "name": "GYOZA",
+      "category": "APPETIZERS",
+      "price": 4.95
+    },
+    {
+      "id": 5,
+      "name": "SOFT SHELL CRAB",
+      "category": "APPETIZERS",
+      "price": 13.95
+    },
+    {
+      "id": 6,
+      "name": "CALAMARI",
+      "category": "APPETIZERS",
+      "price": 8.50
+    },
+    {
+      "id": 7,
+      "name": "L.A Ribs",
+      "category": "MAIN ENTREE",
+      "price": 24.95
+    },
+    {
+      "id": 8,
+      "name": "Bulgogi",
+      "category": "MAIN ENTREE",
+      "price": 15.95
+    },
+    {
+      "id": 9,
+      "name": "Braised Kalbi Ribs",
+      "category": "MAIN ENTREE",
+      "price": 15.95
+    },
+    {
+      "id": 10,
+      "name": "Spicy Chicken",
+      "category": "MAIN ENTREE",
+      "price": 14.95
+    },
+        {
+      "id": 11,
+      "name": "Regular Bibimbap",
+      "category": "BIBIMBAP",
+      "price": 10.95
+    },
+	        {
+      "id": 12,
+      "name": "Kimchi Bibimbap",
+      "category": "BIBIMBAP",
+      "price": 9.95
+    },
+	        {
+      "id": 13,
+      "name": "Bulgogi Bibimbap",
+      "category": "BIBIMBAP",
+      "price": 11.95
+    },
+	{
+      "id": 14,
+      "name": "Salmon Bibimbap",
+      "category": "BIBIMBAP",
+      "price": 10.95
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6552564,
+        "lng": -79.3854753
+      },
+  "address":"149 Dundas St W, Toronto, ON M5G 1C5",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

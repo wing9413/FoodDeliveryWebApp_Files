@@ -1,0 +1,84 @@
+{"restName":"",
+  "categories":["ENTREE","RICE & NAAN","Samosas"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Beef Curry",
+      "category": "ENTREE",
+      "price": 7.99
+    },
+    {
+      "id": 2,
+      "name": "Butter Chicken",
+      "category": "ENTREE",
+      "price": 7.99
+    },
+    {
+      "id": 3,
+      "name": "Chicken Curry",
+      "category": "ENTREE",
+      "price": 6.99
+    },
+        {
+      "id": 4,
+      "name": "Chicken Biryani",
+      "category": "ENTREE",
+      "price": 6.99
+    },
+    {
+      "id": 5,
+      "name": "Vegetable Curry",
+      "category": "ENTREE",
+      "price": 4.00
+    },
+    {
+      "id": 6,
+      "name": "Vegetable Samosas",
+      "category": "Samosas",
+      "price": 2.99
+    },
+	    {
+      "id": 7,
+      "name": "Samosas",
+      "category": "Samosas",
+      "price": 3.99
+    },
+    {
+      "id": 8,
+      "name": "Plain Rice",
+      "category": "RICE & NAAN",
+      "price": 3.00
+    },
+    {
+      "id": 9,
+      "name": "Plain Naan ",
+      "category": "RICE & NAAN",
+      "price": 1.5
+    },
+	    {
+      "id": 10,
+      "name": "Garlic Naan",
+      "category": "RICE & NAAN",
+      "price": 1.75
+    },
+    {
+      "id": 11,
+      "name": "Butter Naan",
+      "category": "RICE & NAAN",
+      "price": 1.75
+    },
+    {
+      "id": 12,
+      "name": "Onion Kulcha",
+      "category": "RICE & NAAN",
+      "price": 1.75
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6592988,
+        "lng": -79.3818803
+      },
+  "address":"",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

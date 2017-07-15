@@ -1,0 +1,66 @@
+{"restName":"Taftan Kebab",
+  "categories":["Combo"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chicken with Pomegranate sauce & rice & salad",
+      "category": "Combo",
+      "price": 8.99
+    },
+    {
+      "id": 2,
+      "name": "Ghaimeh with rice & salad",
+      "category": "Combo",
+      "price": 7.99
+    },
+    {
+      "id": 3,
+      "name": "Chicken & Rice mixed with Barberry and salad",
+      "category": "Combo",
+      "price": 7.99
+    },
+    {
+      "id": 4,
+      "name": "Chicken kebab with salad",
+      "category": "Combo",
+      "price": 5.99
+    },
+    {
+      "id": 5,
+      "name": "Koobideh kebab with salad",
+      "category":"Combo",
+      "price": 4.99
+    },
+    {
+      "id": 6,
+      "name": "Deezi with bread",
+      "category": "Combo",
+      "price": 8.99
+    },
+    {
+      "id": 7,
+      "name": "Joojeh Bakhtiari with rice & salad",
+      "category": "Combo",
+      "price": 11.99
+    },
+    {
+      "id": 8,
+      "name": "Chicken breast with rice & salad",
+      "category": "Combo",
+      "price": 9.99
+    },
+    {
+      "id": 9,
+      "name": "Kashk Bademjan",
+      "category": "Combo",
+      "price": 4.99
+    }
+  ],
+  "phone":"+1(416) 224-5985",
+   "location": {
+        "lat": 43.7745335,
+        "lng": -79.41424
+      },
+  "address":"5372 Yonge St, North York, ON M2N 5R5",
+  "opening":{"date":"Mon-Sun","open":11,"close":10}
+}

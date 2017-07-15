@@ -1,0 +1,72 @@
+{"restName":"",
+  "categories":["Chicken wings"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Maple Vindaloo",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+    {
+      "id": 2,
+      "name": "Honey Garlic",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+    {
+      "id": 3,
+      "name": "Garlic Parm",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+        {
+      "id": 4,
+      "name": "Mississippi Honey BBQ",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+    {
+      "id": 5,
+      "name": "Korean BBQ",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+    {
+      "id": 6,
+      "name": "Sweet Asian BBQ",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+	    {
+      "id": 7,
+      "name": "Mild Saucy",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+    {
+      "id": 8,
+      "name": "Buffalo Ranch",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+    {
+      "id": 9,
+      "name": "Mild thai",
+      "category": "Chicken wings",
+      "price": 9.99
+    },
+	    {
+      "id": 10,
+      "name": "Chili Lime",
+      "category": "Chicken wings",
+      "price": 9.99
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6561838,
+        "lng": -79.3830938
+      },
+  "address":"595 Bay St, Toronto, ON M5G 2C2",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

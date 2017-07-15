@@ -1,0 +1,78 @@
+{"restName":"Ajisen Ramen",
+  "categories":["Ramen","Rice Series","Set Meal"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Tender Prok Ribs Ramen",
+      "category": "Ramen",
+      "price": 9.5
+    },
+    {
+      "id": 2,
+      "name": "Ajisen Ramen",
+      "category": "Ramen",
+      "price": 7.99
+    },
+    {
+      "id": 3,
+      "name": "Prok Ramen",
+      "category": "Ramen",
+      "price": 8.99
+    },
+    {
+      "id": 4,
+      "name": "BBQ Pork Ramen",
+      "category": "Ramen",
+      "price": 8.99
+    },
+    {
+      "id": 5,
+      "name": "Gilled Eel Fried Rice",
+      "category": "Rice Series",
+      "price": 8.99
+    },
+    {
+      "id": 6,
+      "name": "Koji Salt Fried Rice",
+      "category": "Rice Series",
+      "price": 7.99
+    },
+    {
+      "id": 7,
+      "name": "Japanese Fried Rice",
+      "category": "Rice Series",
+      "price": 7.99
+    },
+    {
+      "id": 8,
+      "name": "Japanese Spicy Fried Rice",
+      "category": "Rice Series",
+      "price": 7.99
+    },
+    {
+      "id": 9,
+      "name": "Ajisen Beef Rice Set",
+      "category": "Set Meal",
+      "price": 8.99
+    },
+    {
+      "id": 10,
+      "name": "Japanese Beef Shank Rice Set",
+      "category": "Set Meal",
+      "price": 8.99
+    },
+    {
+      "id": 11,
+      "name": "Tender Pork Ribs Rice Set",
+      "category": "Set Meal",
+      "price": 8.99
+    }
+  ],
+  "phone":"+1(416) 223-0618",
+  "location": {
+        "lat": 43.7714196,
+        "lng": -79.413434
+      },
+  "address":"5229 Yonge St, North York, ON M2N 5P8",
+  "opening":{"date":"Mon-Sun","open":10,"close":0}
+}

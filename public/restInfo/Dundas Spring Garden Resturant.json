@@ -1,0 +1,48 @@
+{"restName":"Dundas Spring Garden Resturant",
+  "categories":["","",""],
+  "products": [
+    {
+      "id": 1,
+            "name": "sichuan noodles with peppery sauce",
+            "category": "main",
+            "price": 7.99
+    },
+    {
+      "id": 2,
+            "name": "knife shaved noodles",
+            "category": "main",
+            "price": 7.99
+    },
+    {
+      "id": 3,
+            "name": "Handmade noodles",
+            "category": "main",
+            "price": 7.99
+    },
+        {
+      "id": 4,
+            "name": "cold noodle with sesame sauce",
+            "category": "main",
+            "price": 5.99
+    },
+    {
+      "id": 5,
+            "name": "Dumplings",
+            "category": "main",
+            "price": 6.99
+    },
+    {
+      "id": 6,
+            "name": "Hot and sour rice noodles",
+            "category": "main",
+            "price": 6.99
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6578285,
+        "lng": -79.3827594
+      },
+  "address":"400 Dundas St E, Mississauga, ON L5A 1X5",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

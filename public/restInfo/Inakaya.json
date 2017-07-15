@@ -1,0 +1,90 @@
+{"restName":"Inakaya",
+  "categories":["Starters","Beef and Chicken","Sushi and Sashimi Starters","Specialty Roll"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Edamame",
+      "category": "Starters",
+      "price": 4
+    },
+    {
+      "id": 2,
+      "name": "Ohitashi",
+      "category": "Starters",
+      "price": 4
+    },
+    {
+      "id": 3,
+      "name": "Beef Tataki",
+      "category": "Beef and Chicken",
+      "price": 15
+    },
+    {
+      "id": 4,
+      "name": "Beef maki",
+      "category": "Beef and Chicken",
+      "price": 15
+    },
+    {
+      "id": 5,
+      "name": "Tori Karaage",
+      "category": "Beef and Chicken",
+      "price": 6
+    },
+    {
+      "id": 6,
+      "name": "Sushi Starter",
+      "category": "Sushi and Sashimi Starters",
+      "price": 15
+    },
+    {
+      "id": 7,
+      "name": "Sashimi Starter",
+      "category": "Sushi and Sashimi Starters",
+      "price": 7.75
+    },
+    {
+      "id": 8,
+      "name": "Maguro Tataki",
+      "category": "Sushi and Sashimi Starters",
+      "price": 7.75
+    },
+    {
+      "id": 9,
+      "name": "Salmon Tataki",
+      "category": "Sushi and Sashimi Starters",
+      "price": 5.25
+    },
+    {
+      "id": 10,
+      "name": "Maguro Tamakake",
+      "category": "Sushi and Sashimi Starters",
+      "price": 5.25
+    },
+    {
+      "id": 11,
+      "name": "Yam Tempura Roll",
+      "category": "Specialty Roll",
+      "price": 5
+    },
+    {
+      "id": 12,
+      "name": "Rainbow Roll",
+      "category": "Specialty Roll",
+      "price": 12
+    },
+    {
+      "id": 13,
+      "name": "Volcano Roll",
+      "category": "Specialty Roll",
+      "price": 19
+    }
+  ],
+  "phone":"+1(416) 224-8881",
+  "location": {
+        "lat": 43.7650813,
+        "lng": -79.4004515
+      },
+  "address":"126 Willowdale Ave, North York, ON M2N 4Y2",
+  "opening":{"date":"Mon-Sun","open":17,"close":23}
+}

@@ -1,0 +1,96 @@
+{"restName":"The Frog a Firkin Pub",
+  "categories":["STARTERS","BURGERS","PUB FAVES","FIRKIN PLATTERS"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Perogies",
+      "category": "STARTERS",
+      "price": 9
+    },
+    {
+      "id": 2,
+      "name": "Fried Pickles",
+      "category": "STARTERS",
+      "price": 7
+    },
+    {
+      "id": 3,
+      "name": "Irish Nachos",
+      "category": "STARTERS",
+      "price": 12
+    },
+    {
+      "id": 4,
+      "name": "Crispy Fish Tacos",
+      "category": "STARTERS",
+      "price": 11
+    },
+    {
+      "id": 5,
+      "name": "Turkey Burger",
+      "category": "BURGERS",
+      "price": 14
+    },
+    {
+      "id": 6,
+      "name": "Old Fashioned",
+      "category": "BURGERS",
+      "price": 12
+    },
+    {
+      "id": 7,
+      "name": "The Firkin Burger",
+      "category": "BURGERS",
+      "price": 14
+    },
+    {
+      "id": 8,
+      "name": "Chef's Chicken Curry",
+      "category": "PUB FAVES",
+      "price": 11
+    },
+    {
+      "id": 9,
+      "name": "Shepherd's Pie",
+      "category": "PUB FAVES",
+      "price": 13
+    },
+    {
+      "id": 10,
+      "name": "Butter Chicken",
+      "category": "PUB FAVES",
+      "price": 15
+    },
+        {
+      "id": 11,
+      "name": "Grilled Vegetable & Goat Cheese Sliders (25pcs)",
+      "category": "FIRKIN PLATTERS",
+      "price": 65
+    },
+    {
+      "id": 12,
+      "name": "Spring Rolls & Samosas (40 pcs)",
+      "category": "FIRKIN PLATTERS",
+      "price": 60
+    },
+    {
+      "id": 13,
+      "name": "Mini Butter Chicken Pies (25 pcs)",
+      "category": "FIRKIN PLATTERS",
+      "price": 40
+    },
+    {
+      "id": 14,
+      "name": "Chicken Finger Platter (40 pcs)",
+      "category": "FIRKIN PLATTERS",
+      "price": 65
+    }
+  ],
+  "phone":"+1(416) 225-3764",
+   "location": {
+        "lat": 43.7791857,
+        "lng": -79.4313902
+      },
+  "address":"4854 Yonge St, North York, ON M2N 5N2",
+  "opening":{"date":"Mon-Sun","open":11,"close":2}
+}

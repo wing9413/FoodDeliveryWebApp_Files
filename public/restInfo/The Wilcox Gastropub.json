@@ -1,0 +1,48 @@
+{"restName":"The Wilcox Gastropub",
+  "categories":["shareables","SALADS","ENTREES","BURGERS"],
+  "products": [
+    {
+      "id": 1,
+            "name": "Serrano Ham and Garlic Soup",
+            "category": "shareables",
+            "price": 10
+    },
+    {
+      "id": 2,
+            "name": "Scotch Egg",
+            "category": "shareables",
+            "price": 10
+    },
+    {
+      "id": 3,
+            "name": "Scallops Tiradito",
+            "category": "shareables",
+            "price": 15
+    },
+        {
+      "id": 4,
+            "name": "Sesame Seared Ahi Tuna Salad",
+            "category": "SALADS",
+            "price": 18
+    },
+    {
+      "id": 5,
+            "name": "Steak and Frites",
+            "category": "ENTREES",
+            "price": 19
+    },
+    {
+      "id": 6,
+            "name": "The Wilcox",
+            "category": "BURGERS",
+            "price": 17
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.606041,
+        "lng": -79.652861
+      },
+  "address":"30 Eglinton Ave W, Mississauga, ON L5R 3E7",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

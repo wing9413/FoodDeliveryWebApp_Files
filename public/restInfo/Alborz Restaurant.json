@@ -1,0 +1,78 @@
+{"restName":"Alborz Restaurant",
+  "categories":["STARTERS","ENTREES","DESSERT"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Maust Khiar",
+      "category": "STARTERS",
+      "price": 5.5
+    },
+    {
+      "id": 2,
+      "name": "Maust Museer",
+      "category": "STARTERS",
+      "price": 5.5
+    },
+    {
+      "id": 3,
+      "name": "Torshi",
+      "category": "STARTERS",
+      "price": 5.5
+    },
+    {
+      "id": 4,
+      "name": "Koobideh Kebab",
+      "category": "ENTREES",
+      "price": 12.99
+    },
+    {
+      "id": 5,
+      "name": "Barg Kebab",
+      "category": "ENTREES",
+      "price": 17.99
+    },
+    {
+      "id": 6,
+      "name": "Chengeh Kebab",
+      "category": "ENTREES",
+      "price": 17.99
+    },
+    {
+      "id": 7,
+      "name": "20.99",
+      "category": "ENTREES",
+      "price": 10.95
+    },
+    {
+      "id": 8,
+      "name": "Chicken Breast Kebab-Boneless",
+      "category": "ENTREES",
+      "price": 15.99
+    },
+    {
+      "id": 9,
+      "name": "Zoolbia & Bamieh",
+      "category": "DESSERT",
+      "price": 2.99
+    },
+    {
+      "id": 10,
+      "name": "Baclava (HomeMade)",
+      "category": "DESSERT",
+      "price": 3.99
+    },
+        {
+      "id": 11,
+      "name": "Falloodeh (Ice Noodle)",
+      "category": "DESSERT",
+      "price": 5.25
+    }
+  ],
+  "phone":"+1(416) 546-4918",
+   "location": {
+        "lat": 43.78671549999999,
+        "lng": -79.4176635
+      },
+  "address":"5906 Yonge Street, Toronto, ON M2M 3T3",
+  "opening":{"date":"Mon-Sun","open":11,"close":22}
+}

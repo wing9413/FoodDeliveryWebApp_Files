@@ -1,0 +1,96 @@
+{"restName":"Burrito Boyz",
+  "categories":["Burrito","Quesadilla"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chicken",
+      "category": "Burrito",
+      "price": 6.42
+    },
+    {
+      "id": 2,
+      "name": "Steak",
+      "category": "Burrito",
+      "price": 7.52
+    },
+    {
+      "id": 3,
+      "name": "Veggie Soy",
+      "category": "Burrito",
+      "price": 5.97
+    },
+        {
+      "id": 4,
+      "name": "Sweet Potato",
+      "category": "Burrito",
+      "price": 5.97
+    },
+    {
+      "id": 5,
+      "name": "Bean & Cheese",
+      "category": "Burrito",
+      "price": 4.87
+    },
+    {
+      "id": 6,
+      "name": "Shrimp",
+      "category": "Burrito",
+      "price": 7.52
+    },
+	    {
+      "id": 7,
+      "name": "Haddock",
+      "category": "Burrito",
+      "price": 7.96
+    },
+    {
+      "id": 8,
+      "name": "Halibut",
+      "category": "Burrito",
+      "price": 9.29
+    },
+    {
+      "id": 9,
+      "name": "Chicken",
+      "category": "Quesadilla",
+      "price": 7.08
+    },
+	    {
+      "id": 10,
+      "name": "Steak",
+      "category": "Quesadilla",
+      "price": 8.19
+    },
+    {
+      "id": 11,
+      "name": "Veggie",
+      "category": "Quesadilla",
+      "price": 7.08
+    },
+    {
+      "id": 12,
+      "name": "Cheese",
+      "category": "Quesadilla",
+      "price": 5.97
+    },
+	    {
+      "id": 13,
+      "name": "Shrimp",
+      "category": "Quesadilla",
+      "price": 8.19
+    },
+    {
+      "id": 14,
+      "name": "Sweet",
+      "category": "Quesadilla",
+      "price": 6.42
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.6563929,
+        "lng": -79.378509
+      },
+  "address":"74 Dundas St E, Toronto, ON M5B 1C7",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

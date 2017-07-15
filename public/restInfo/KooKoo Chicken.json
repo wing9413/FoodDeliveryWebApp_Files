@@ -1,0 +1,54 @@
+{"restName":"KooKoo Chicken",
+  "categories":["main"],
+  "products": [
+    {
+      "id": 1,
+            "name": "Mini chicken bites 1 fries 1 drink",
+            "category": "main",
+            "price": 8.5
+    },
+    {
+      "id": 2,
+            "name": "Chicken burger 1 fries 1 drink",
+            "category": "main",
+            "price": 9.25
+    },
+    {
+      "id": 3,
+            "name": "2 Chicken legs/thighs 1 fries 1 drink",
+            "category": "main",
+            "price": 10.25
+    },
+        {
+      "id": 4,
+            "name": "6 Chicken legs/thighs 1 fries 1 drink",
+            "category": "main",
+            "price": 25.75
+    },
+    {
+      "id": 5,
+            "name": "1 Chicken steak 1 fries 1 drink",
+            "category": "main",
+            "price": 10.25
+    },
+    {
+      "id": 6,
+            "name": "2 Chicken steak 1 fries 1 drink",
+            "category": "main",
+            "price": 19.5
+    },
+	    {
+      "id": 7,
+            "name": "4 Chicken steak 1 fries 1 drink",
+            "category": "main",
+            "price": 31.98
+    }
+  ],
+  "phone":"+1(416) 977-6748",
+   "location": {
+        "lat": 43.586598,
+        "lng": -79.699027
+      },
+  "address":"1525 Bristol Rd W, Mississauga, ON L5M 4Z1",
+  "opening":{"date":"Mon-Sun","open":10,"close":20}
+}

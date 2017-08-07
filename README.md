@@ -7,3 +7,6 @@ This is website about food delivery in GTA area where people can order online fr
 * HTML5/CSS/Bootstrap/angular Bootstrap
 * client- ajax, json, angularJS, JS
 * server: services -databases
+
+#### Home Page
+

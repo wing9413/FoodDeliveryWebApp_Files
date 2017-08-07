@@ -10,5 +10,9 @@ This is website about food delivery in GTA area where people can order online fr
 
 ### Bootstrap (for different sizes of devices)
 
+![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IphoneSize.jpg)
+
+![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IpadSize.jpg)
+
 ### Home Page
 

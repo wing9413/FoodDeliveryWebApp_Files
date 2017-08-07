@@ -18,6 +18,19 @@ Iphone
 Ipad
 ![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IpadSize.jpg)
 
-### Home Page
+### Home/Search Page
 
 ![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/homepage.jpg)
+
+### Result Page
+
+![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/resultPage.jpg)
+
+### Restaurant Page
+
+![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/restaurant.jpg)
+
+
+### CheckOut Page
+
+![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/checkOut.jpg)

@@ -16,3 +16,4 @@ This is website about food delivery in GTA area where people can order online fr
 
 ### Home Page
 
+![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/homepage.jpg)

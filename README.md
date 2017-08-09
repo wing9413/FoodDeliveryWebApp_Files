@@ -15,21 +15,21 @@ Iphone </br>
 <img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IphoneSize.jpg" alt="alt text" width="30%" height="30%">
 
 Ipad </br>
-![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IpadSize.jpg)
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IpadSize.jpg" alt="alt text" width="30%" height="30%">
 
 ### Home/Search Page
 
-![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/homepage.jpg)
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/homepage.jpg" alt="alt text" width="30%" height="30%">
 
 ### Result Page
 
-![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/resultPage.jpg)
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/resultPage.jpg" alt="alt text" width="30%" height="30%">
 
 ### Restaurant Page
 
-![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/restaurant.jpg)
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/restaurant.jpg" alt="alt text" width="30%" height="30%">
 
 
 ### CheckOut Page
 
-![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/checkOut.jpg)
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/checkOut.jpg" alt="alt text" width="30%" height="30%">

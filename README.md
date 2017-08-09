@@ -12,8 +12,7 @@ This is website about food delivery in GTA area where people can order online fr
 
 
 Iphone </br>
-![](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IphoneSize.jpg =80x100)
-<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IphoneSize.jpg" alt="alt text" width="180" height="200">
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IphoneSize.jpg" alt="alt text" width="50%" height="50%">
 
 Ipad </br>
 ![alt text](https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/IpadSize.jpg)

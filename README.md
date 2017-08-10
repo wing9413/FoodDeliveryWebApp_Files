@@ -19,17 +19,17 @@ This is website about food delivery in GTA area where people can order online fr
 
 ### Home/Search Page
 
-<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/homepage.jpg" alt="alt text" width="30%" height="30%">
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/homepage.jpg" alt="alt text" width="50%" height="50%">
 
 ### Result Page
 
-<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/resultPage.jpg" alt="alt text" width="30%" height="30%">
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/resultPage.jpg" alt="alt text" width="50%" height="50%">
 
 ### Restaurant Page
 
-<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/restaurant.jpg" alt="alt text" width="30%" height="30%">
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/restaurant.jpg" alt="alt text" width="50%" height="50%">
 
 
 ### CheckOut Page
 
-<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/checkOut.jpg" alt="alt text" width="30%" height="30%">
+<img src="https://github.com/wing9413/FoodDeliveryWebApp_Files/blob/master/Pictures/checkOut.jpg" alt="alt text" width="50%" height="50%">
